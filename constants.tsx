@@ -22,7 +22,7 @@ export const RulerIcon = ({ className }: { className?: string }) => <IconWrapper
 
 export const TOOLS: Tool[] = [
   // AI Tools
-  { id: 'image-to-text', name: 'Image to Text (OCR)', description: 'Extract text from images with high accuracy.', category: ToolCategory.AI, icon: FileTextIcon, featured: true },
+  { id: 'image-to-text', name: 'Free Online Image to Text Converter (OCR) – Extract Text from Images', description: 'Extract text from images with high accuracy.', category: ToolCategory.AI, icon: FileTextIcon, featured: true },
   { id: 'text-to-image', name: 'Text to Image Generator', description: 'Create stunning images from text descriptions.', category: ToolCategory.AI, icon: ImageIcon },
   { id: 'blog-writer', name: 'AI Blog Post Writer', description: 'Generate engaging, SEO-friendly blog articles.', category: ToolCategory.AI, icon: PenToolIcon, featured: true },
   { id: 'email-writer', name: 'AI Email Writer', description: 'Compose professional emails for any situation.', category: ToolCategory.AI, icon: MailIcon },
